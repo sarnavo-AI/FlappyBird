@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Flappy Bird Game</title>
+    </head>
+    <link type="text/css" rel="stylesheet" href="flappyBird.css" />
+    <body>
+        <!--<h1>Flappy Bird Game</h1>-->
+        <div id="main-container">
+            <div id="start-container">
+                <h2>Do you want to play Flappy Bird Game?</h2>
+                <button id="start-button">Start</button>
+                <p id="info-para">press space bar to move the bird</p>
+                <p id="copyright">&copy; SARNAVO SARKAR PRODUCTON</p>
+            </div>
+
+            <div id="game-container">
+                <div id="score">
+                    <p id="para-score">Score: <span id="span-score">0</span></p>
+                </div>
+                <canvas></canvas>
+            </div>
+
+            <div id="reset-container">
+                <div id="reset-score">
+                    <h3>You Lost!</h3>
+                    <p id="reset-para-score">Score: <span id="reset-span-score">0</span></p>
+                    <button  id="reset-button">Reset</button>
+                    <button id="quit-button">Quit</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="flappyBird.js"></script>
+    </body>
+</html>
